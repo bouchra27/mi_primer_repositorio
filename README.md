@@ -42,7 +42,7 @@ Dictionario
   |+por_dir_fk|int|direccion.
   |+por_nam|vachar(150)|nombre del puerto.
   |+por_tel|int|numero de teléfono.
-  |+por_email|email del puerto.
+  |+por_email|int|email del puerto.
   |+por_aut_fk|smaillint|código de la autoridad.
 
   ## tabla de la autoridad
@@ -57,10 +57,10 @@ Dictionario
   |campo|tipo|descripcion|
   |-----|----|-----------|
   |+rol_aut_pk|int|primary key.
-  |+rol_aut_rol_fk|int||rol.
+  |+rol_aut_rol_fk|int|rol.
   |+rol_aut_aut_fk|int|autoridad.
   |+rol_aut_ini|int|fecha del inicio.
-  |+rol_aut_end|fecha del fin.
+  |+rol_aut_end|int|fecha del fin.
 
   ## tabla roles
   |campo|tipo| descripcion|
