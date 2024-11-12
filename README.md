@@ -26,4 +26,12 @@ Dictionario
   |+cou_nam_eng|nvarchar(44)|nombre de país en inglés.
   |+cou_nam_fra| nvarchar(42)|nombre de país en francés.
   |+cou_ddi|nvarchar(5)|código internacional de teléfono.
+
+  ## tabla direcciones
+  |campo|tipo| descripcion |
+  |-----|----|--------------|
+  |+dir_pk|int|primary key.
+  |+dir_street|char|nombre de la calle.
+  |+dir_num|type|numero de la calle.
+  |+dir_city|fk| código postal.
  
