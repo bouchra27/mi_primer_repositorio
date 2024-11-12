@@ -2,4 +2,6 @@
 
 
 
-buenos dias 
+good morning
+buenas tardes
+ 
